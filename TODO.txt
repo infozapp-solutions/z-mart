@@ -1,0 +1,15 @@
+Below are the list of items needs to be in place before going live.
+
+1. When uploading product via admin panel the available number of quantities must be updated.
+2. when ever user places an order, the particular product should be decreased from the quantity.
+3. Update the footer bar with contact us information.
+4. In Product detail page, add the possibility of selecting the quantity. maximum quantity should be maximum of available quantity.
+5. Forgot password need to be in place.
+6. Invoice generation needs to be incorporated.
+7. Google signup integration.
+
+
+
+
+
+Mannual work needs to be done for every one week with the available products.
