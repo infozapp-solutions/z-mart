@@ -11,10 +11,10 @@ const NewsLetter = () => {
       </article>
 
       <label htmlFor="email" className="mb-1 block">Email</label>
-      <input type="email" id="email" placeholder="Email" className="w-full text-base h-[40px] mb-5 bg-primaryHeader border-solid border-white border-2 px-3 outline-none"/>
+      <input type="email" id="email" placeholder="Email" className="w-full text-base h-[40px] mb-5 bg-secondaryHeader border-solid border-white border-2 px-3 outline-none"/>
 
       <div className="text-right">
-        <button type="submit" className="text-base h-[40px] mb-5 bg-primaryHeader border-solid border-white border-2 px-3 outline-none uppercase">subscribe</button>
+        <button type="submit" className="text-base h-[40px] mb-5 bg-secondaryHeader border-solid border-white border-2 px-3 outline-none uppercase">subscribe</button>
       </div>
     </div>
   )

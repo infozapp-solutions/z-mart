@@ -7,12 +7,12 @@ module.exports = {
     extend: {
       colors: {
         primaryHeader: '#0f5c9b',
-        secondaryHeader: '#1f76bd',
-        blue: '#1287e8',
-        transparent: {
-          blue: '#2076bd78',
-          darkblue: '#0f5c9bd9'
-        }
+        secondaryHeader: '#0084b8',
+        themeColorThree: '#00a9b9',
+        themeColorFour: '#00caa2',
+        themeColorGreen: '#8ee682',
+        themeColorYellow: '#f9f871',
+        errorText: '#dc2625',
       },
       screens: {
         'xxs': '500px'

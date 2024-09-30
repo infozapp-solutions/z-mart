@@ -7,9 +7,32 @@ Below are the list of items needs to be in place before going live.
 5. Forgot password need to be in place.
 6. Invoice generation needs to be incorporated.
 7. Google signup integration.
+8. User must able to select the address (delivery & billing).
+9. Loading bar should be in place for all the api calls.
 
 
 
 
 
-Mannual work needs to be done for every one week with the available products.
+Mannual inventory work needs to be done for once a week.
+
+
+
+
+
+
+
+
+Reference links
+1. forgot password: https://www.youtube.com/watch?v=YXjORp170Lg
+
+
+Application essentials
+
+Mongo DB:
+userName: techsinarif
+password: R78SWTHmBBkZW05J
+
+
+
+godaddy email for refund - rajesh9762@godaddy.com

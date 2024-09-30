@@ -3,6 +3,7 @@ const router = express.Router()
 
 const userSignUpController = require("../controller/user/userSignUp")
 const userSignInController = require('../controller/user/userSignIn')
+const userForgotPasswordController = require("../controller/user/forgotPassword")
 const userDetailsController = require('../controller/user/userDetails')
 const authToken = require('../middleware/authToken')
 const userLogout = require('../controller/user/userLogout')
@@ -23,7 +24,8 @@ const searchProduct = require('../controller/product/searchProduct')
 const filterProductController = require('../controller/product/filterProduct')
 
 router.post("/signup",userSignUpController)
-router.post("/signin",userSignInController)
+router.post("/signin",userSignInController);
+router.post('/forgot-password', userForgotPasswordController)
 router.get("/user-details",authToken,userDetailsController)
 router.get("/userLogout",userLogout)
 
